@@ -1,0 +1,53 @@
+.name{
+    font-size: 50px;
+    font-family: cursive;
+
+}
+body{
+    background-color:black;
+    color:white;
+
+}
+img{
+    position: absolute;
+    right:0px;
+    top:0px;
+    border-radius: 50%;
+ 
+}
+.t1{
+    border-radius: 20px;
+}
+.tables-container {
+    display: flex;
+    
+}
+.img2{
+    position:relative;
+    left:0px;
+    top:0px;
+    border-radius: 50%;
+}
+/* Optional styling for the tables */
+.tables-container table {
+    border-collapse: collapse;
+    width: 50%; /* Each table takes up 50% of the width */
+    margin: 10px;
+    border: 10px solid whitesmoke;
+    padding: 25px;
+    
+}
+
+.tables-container th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+a{
+    color:aquamarine;
+}
+.t2 h1{
+    font-style: italic;
+    font-display: cursive;
+    font-weight:bolder;
+}
